@@ -1,53 +1,46 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Student",
-    location: "Singapore Management University",
+    title: "[Education] Bachelor of Architecture - BArch, Architecture",
+    location: "Brawijaya University",
     description: [
-      "- Sophmore at SMU School of Information Systems",
-      "- Majoring in Digitilisation and Cloud Solutioning (DCS)",
     ],
-    date: "August 2023 - present",
-    icon: "smu",
+    date: "Sep 2020 - Jul 2024",
+    icon: "ub", //TODO: change icon
   },
   {
     id: 2,
-    title: "Admin Intern",
-    location: "AutomationSG, Singapore",
+    title: "[Organization] Himpunan Mahasiswa Arsitektur FT-UB",
+    location: "FT UB",
     description: [
-      "- Streamlined registration process for guests during events",
-      "- Worked on automating data validation for client data",
-      "- Used Python to run automation scripts and extract, analyze data",
+      "- Deputy Head of Workshop Departement 2023/2024",
+      "- Staff of Workshop Department 2022/2023",
+      "- Staff of Workshop Department 2021/2022",
+      "Workshop Department is department to develop entrepreneurial interest, increase architectural hard skill and soft skill, also social media management"
     ],
-    date: "Dec 2023, May 2024 - Jul 2024",
-    icon: "automationsg",
+    date: "Jul 2021 - Jun 2024",
+    icon: "himpunan", //TODO: change icon
   },
   {
     id: 3,
-    title: "Compliance and Security Analyst Intern",
-    location: "Accenture, Singapore",
+    title: "[Internship] Architect Assistant of Technical Facilitator BSPS Activity ",
+    location: "Ditjen Perumahan Kementerian PUPR",
     description: [
-      "- Worked as part of the Compliance team on a MINDEF project",
-      "- Involed in the development of the OneNS web service as well as a mobile app",
-      "- Gained experience using AWS Console, more specifically EC2 Instances, Cloudwatch and Cloudtrail",
-      "- Auomated the log review process with AWS Boto3 by writing shell scripts to run on AWS CLI",
-      "- Performed weekly log review on internal processes with relevant stakeholders ",
+      "TODO: explain what are the task", // TODO
     ],
-
-    date: "Jan 2023 - July 2023",
-    icon: "accenture",
+    date: "Feb 2023 - Jun 2023",
+    icon: "pupr", //TODO: change icon
   },
   {
     id: 4,
-    title: "Team Leader",
-    location: "Ministry of Health, Singapore",
+    title: "[Internship] Volunteer for IAI Jawa Timur Peduli Semeru",
+    location: "Ikatan Arsitek Indonesia",
     description: [
-      "- Assisted MOH as part of the Covid Management Call Centre (CMCC) during the huge spikes of covid cases",
-      "- Worked as the team leader to delegate tasks, as well as answer to callers requests, such as conveyance to facilities or simple queries regarding Home Recovery Program (HRP) protocol.",
-      "- Doubled up as the point man for problematic or incompliant callers to act as a mediator and meet to their requests as best as we could.",
+      "Some students selected from the university and work with IAI Jawa Timur, DPKP, Lumajang Goverment, and another university in a housing project for residents that affected by the eruption of Mount Semeru. In this project, I learned to be project supervisor, quality checkers, and as-built drafters",
     ],
-    date: "Feb 2022 - March 2022",
-    icon: "moh",
+
+    date: "Oct 2022 - Des 2022",
+    icon: "iai", //TODO: change icon
   },
 ];
 

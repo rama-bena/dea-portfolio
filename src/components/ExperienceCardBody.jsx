@@ -15,12 +15,12 @@ import { StickyImage } from "./StickyImage";
 export const ExperienceInfoCards = () => {
   return (
     <div className="bg-white" id="experience">
-      {/* // Work Experience */}
+      {/* // Experience */}
       <ExperienceImageCard
         id="#experience"
         className="items-center justify-center"
         imgUrl={`${process.env.PUBLIC_URL}/images/deandra.jpg`}
-        subHeading={"Work Experience"}
+        subHeading={"Experience"}
         heading={"Where I Have Been!"}
         height={"150"}
         Component={<ExperienceTimeLineComponent />}
