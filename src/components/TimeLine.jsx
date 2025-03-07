@@ -33,7 +33,7 @@ export const ExperienceTimeLineComponent = () => {
               icon={
                 <ComponentPicture
                   className="flex flex-row justify-center"
-                  imgUrl={`${process.env.PUBLIC_URL}/images/${element.icon}.png`}
+                  imgUrl={`${process.env.PUBLIC_URL}/images/${element.icon}.jpeg`}
                 />
               }
             >
