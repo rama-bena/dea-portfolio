@@ -118,7 +118,7 @@ function MainSection() {
     deletingSpeed = 50,
     delay = 1500;
   // eslint-disable-next-line
-  const phrases = ["a master's degree student", "an architect"];
+  const phrases = ["a master's degree student of built environment architecture", "a fresh graduate of architecture"];
   const [text, setText] = useState("");
   const [count, setCount] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);

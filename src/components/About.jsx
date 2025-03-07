@@ -4,7 +4,7 @@ import { IoMdDocument } from "react-icons/io";
 
 export const About = () => {
   return (
-    <div className="flex items-center justify-center h-[60vh]">
+    <div className="flex items-center justify-center h-[90vh]">
       <div className="relative w-full group max-w-md min-w-0 mx-auto mb-6 break-words bg-white shadow-2xl md:max-w-sm rounded-2xl">
         <div className="pb-6 shadow-2xl">
           <div className="flex flex-wrap justify-center">

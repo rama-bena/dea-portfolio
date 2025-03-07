@@ -1,7 +1,7 @@
 export const DottedButton = ({ name, Icon }) => {
   return (
-    <button className="justify-center text-lg rounded-2xl border-2 border-dashed border-black bg-white px-6 py-3 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-      {name} {Icon && <Icon className="inline mx-1" />}
+    <button className="flex items-center justify-center text-lg rounded-lg border border-gray-300 bg-gray-200 px-6 py-3 font-medium text-gray-800 transition-transform duration-300 hover:bg-gray-300 active:bg-gray-400">
+      {name} {Icon && <Icon className="inline ml-2" />}
     </button>
   );
 };
