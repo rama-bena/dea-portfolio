@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { HashLink as Link } from "react-router-hash-link";
-import { DottedButton } from "./DottedButton";
+import { NavButton } from "./NavButton";
 
 const Main = styled(motion.main)`
   display: flex;
@@ -223,13 +223,13 @@ function MainSection() {
           transition={{ duration: 0.2 }}
         >
           <Link to="#experience" smooth>
-            <DottedButton name="Experience" />
+            <NavButton name="Experience" />
           </Link>
           <Link to="#projects" smooth>
-            <DottedButton name="Projects" />
+            <NavButton name="Projects" />
           </Link>
           <Link to="#skills" smooth>
-            <DottedButton name="Skills" />
+            <NavButton name="Skills" />
           </Link>
         </NavigationBar>
       </NavigationBarWrapper>

@@ -1,7 +1,7 @@
 import { StickyImage } from "./StickyImage";
 import { OverlayCopy } from "./OverlayCopy";
 import { Projects } from "./Projects";
-import { DottedButton } from "./DottedButton";
+import { NavButton } from "./NavButton";
 import { BsGithub } from "react-icons/bs";
 
 const IMG_PADDING = 12;
@@ -66,7 +66,7 @@ const ProjectContent = () => (
         To view all my repositories, click below to visit my Github page!
       </p>
       <a href="https://github.com/rama-bena" target="_blank" rel="noreferrer">
-        <DottedButton name="Github" Icon={BsGithub} />
+        <NavButton name="Github" Icon={BsGithub} />
       </a>
     </div>
   </div>
