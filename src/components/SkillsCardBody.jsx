@@ -10,8 +10,8 @@ export const SkillInfoCards = () => {
       <SkillImageCard
         id="#skills"
         imgUrl={`${process.env.PUBLIC_URL}/images/coldplay.jpeg`}
-        subHeading={"My Skills"}
-        heading={"Coding Languages"}
+        subHeading={"Skills"}
+        heading={"Architecture"}
         height={"150"}
         Component={<HoverDevCards />}
       />
