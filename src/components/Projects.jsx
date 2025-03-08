@@ -1,7 +1,7 @@
 import projectElement from "../projectElement";
 import "./Projects.css";
 import "./ProjectCard.css";
-import { DottedButton } from "./DottedButton";
+import { NavButton } from "./NavButton";
 
 const ProjectCard = ({ title, description, image, link, skills }) => {
   return (
@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, image, link, skills }) => {
           ))}
         </div>
         <a href={link} target="_blank" rel="noreferrer">
-          <DottedButton name="View Project" />
+          <NavButton name="View Project" />
         </a>
       </div>
     </div>

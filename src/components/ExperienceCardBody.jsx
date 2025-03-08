@@ -1,6 +1,6 @@
 import { BsLinkedin } from "react-icons/bs";
 import { ExperienceTimeLineComponent } from "./TimeLine";
-import { DottedButton } from "./DottedButton";
+import { NavButton } from "./NavButton";
 import { OverlayCopy } from "./OverlayCopy";
 import { StickyImage } from "./StickyImage";
 
@@ -81,7 +81,7 @@ const ExperienceContent = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <DottedButton name="My LinkedIn" Icon={BsLinkedin} />
+        <NavButton name="My LinkedIn" Icon={BsLinkedin} />
       </a>
     </div>
   </div>

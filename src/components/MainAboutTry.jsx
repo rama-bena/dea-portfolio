@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import styled from "styled-components";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { HashLink as Link } from "react-router-hash-link";
-import { DottedButton } from "./DottedButton";
+import { NavButton } from "./NavButton";
 
 const HeroSection = styled.section`
   height: 300vh;
@@ -89,13 +89,13 @@ function MainSection() {
 
           <NavigationButtons>
             <Link to="#experience" smooth>
-              <DottedButton name="Experience" />
+              <NavButton name="Experience" />
             </Link>
             <Link to="#projects" smooth>
-              <DottedButton name="Projects" />
+              <NavButton name="Projects" />
             </Link>
             <Link to="#skills" smooth>
-              <DottedButton name="Skills" />
+              <NavButton name="Skills" />
             </Link>
           </NavigationButtons>
         </ContentWrapper>

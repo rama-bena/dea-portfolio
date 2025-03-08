@@ -31,10 +31,10 @@ const HoverDevCards = () => {
         grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
       >
         <Card
-          title="Frontend"
+          title="Software Architecture"
           subtitle="Hover to explore"
           Icon={VscFileCode}
-          skills={["React", "Next.js", "Vue", "Node js"]}
+          skills={["Autocad", "Sketchup", "Lumion", "Node js"]}
         />
         <Card
           title="Backend"
