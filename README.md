@@ -14,7 +14,6 @@ To get started with this project, follow the instructions below.
 Make sure you have the following installed:
 
 - Node.js (version 14 or higher)
-- npm (comes with Node.js)
 
 ### Installation
 
