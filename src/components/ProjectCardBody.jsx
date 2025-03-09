@@ -12,7 +12,7 @@ export const ProjectInfoCards = () => {
       <ProjectImageCard
         id="#projects"
         imgUrl={`${process.env.PUBLIC_URL}/images/sunrise.jpeg`}
-        subHeading={"My Projects"}
+        subHeading={"My Projects and Scientific Article"}
         heading={"Some Things That I Have Done!"}
         height={"150"}
         Component={<Projects />}
