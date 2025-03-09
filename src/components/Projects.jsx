@@ -2,13 +2,14 @@ import projectElement from "../projectElement";
 import "./Projects.css";
 import "./ProjectCard.css";
 import { NavButton } from "./NavButton";
+import PDFViewer from "./PdfViewer";
 
-const ProjectCard = ({ title, description, image, link, skills }) => {
+const ProjectCard = ({ title, description, file, skills }) => {
   return (
     <div className="project-card">
-      <img src={image} alt={title} className="project-image" />
       <div className="project-content">
         <h2 className="project-title">{title}</h2>
+        <PDFViewer file={file} />
         <p className="project-description">{description}</p>
         <div className="flex flex-wrap mt-2 justify-center mb-4">
           {skills.map((skill, index) => (
@@ -20,7 +21,7 @@ const ProjectCard = ({ title, description, image, link, skills }) => {
             </span>
           ))}
         </div>
-        <a href={link} target="_blank" rel="noreferrer">
+        <a href={file} target="_blank" rel="noreferrer">
           <NavButton name="View Project" />
         </a>
       </div>
@@ -36,8 +37,7 @@ export const Projects = () => {
           key={index}
           title={project.title}
           description={project.description}
-          image={`${process.env.PUBLIC_URL}/images/${project.imgUrl}`}
-          link={project.projectLink}
+          file={`${process.env.PUBLIC_URL}/pdf/${project.file}`}
           skills={project.skills}
         />
       ))}
