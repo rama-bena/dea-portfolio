@@ -16,10 +16,6 @@
 .env.test.local
 .env.production.local
 
-# Tailwind CSS
-tailwind.config.js
-postcss.config.js
-
 # IDEs and editors
 .vscode/
 .idea/
