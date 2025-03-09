@@ -1,12 +1,11 @@
-let timelineElements = [
+const timelineElements = [
   {
     id: 1,
     title: "[Education] Bachelor of Architecture - BArch, Architecture",
     location: "Brawijaya University",
-    description: [
-    ],
+    description: [],
     date: "Sep 2020 - Jul 2024",
-    icon: "ub", //TODO: change icon
+    icon: "ub",
   },
   {
     id: 2,
@@ -16,20 +15,21 @@ let timelineElements = [
       "- Deputy Head of Workshop Departement 2023/2024",
       "- Staff of Workshop Department 2022/2023",
       "- Staff of Workshop Department 2021/2022",
-      "Workshop Department is department to develop entrepreneurial interest, increase architectural hard skill and soft skill, also social media management"
+      "Workshop Department is department to develop entrepreneurial interest, increase architectural hard skill and soft skill, also social media management",
     ],
     date: "Jul 2021 - Jun 2024",
-    icon: "himpunan", //TODO: change icon
+    icon: "himpunan",
   },
   {
     id: 3,
-    title: "[Internship] Architect Assistant of Technical Facilitator BSPS Activity ",
+    title:
+      "[Internship] Architect Assistant of Technical Facilitator BSPS Activity ",
     location: "Ditjen Perumahan Kementerian PUPR",
     description: [
       "TODO: explain what are the task", // TODO
     ],
     date: "Feb 2023 - Jun 2023",
-    icon: "pupr", //TODO: change icon
+    icon: "pupr",
   },
   {
     id: 4,
@@ -40,18 +40,8 @@ let timelineElements = [
     ],
 
     date: "Oct 2022 - Des 2022",
-    icon: "iai", //TODO: change icon
+    icon: "iai",
   },
 ];
 
 export default timelineElements;
-
-// {
-//   id: 4,
-//   title: "National Service",
-//   location: "Mindef, Singapore",
-//   description: ["-- Insert description here --"],
-
-//   date: "Jan 2021 - Nov 2022",
-//   icon: "mindef",
-// },

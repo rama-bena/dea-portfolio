@@ -10,20 +10,7 @@ import {
   useSpring,
 } from "framer-motion";
 
-const containerVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      delay: 0.1,
-      duration: 0.4,
-      ease: "easeOut",
-    },
-  },
-};
-
-const HoverDevCards = () => {
+export const HoverDevCards = () => {
   return (
     <div className="p-4 sm:p-6 md:p-8 w-full min-h-[50vh] flex items-center justify-center">
       <div
@@ -62,6 +49,19 @@ const HoverDevCards = () => {
 const Card = ({ title, subtitle, Icon, skills }) => {
   const [isHovered, setIsHovered] = React.useState(false);
   const ref = useRef(null);
+
+  const containerVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        delay: 0.1,
+        duration: 0.4,
+        ease: "easeOut",
+      },
+    },
+  };
 
   // 3D tilt effect setup
   const x = useMotionValue(0);
@@ -253,5 +253,3 @@ const ImageComponent = ({ imgUrl, name, sizeClass }) => {
     </div>
   );
 };
-
-export default HoverDevCards;

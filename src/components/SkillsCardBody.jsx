@@ -1,6 +1,6 @@
 import { StickyImage } from "./StickyImage";
 import { OverlayCopy } from "./OverlayCopy";
-import HoverDevCards from "./SkillCards";
+import { HoverDevCards } from "./SkillCards";
 
 const IMG_PADDING = 12;
 
