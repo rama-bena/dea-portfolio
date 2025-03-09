@@ -30,6 +30,6 @@ module.exports = {
         scroll: "scroll 20s linear infinite",
       },
     },
-    plugins: [],
   },
+  plugins: [],
 };
