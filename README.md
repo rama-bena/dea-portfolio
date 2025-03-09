@@ -1,9 +1,9 @@
 
-# My React App
+# Dea Portfolio
 
-![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/rama-bena/dea-portfolio?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
+This is Dea Portfolio, you can see in [dea-portfolio](https://rama-bena.github.io/dea-portfolio/)
 
-This is a simple React application built with TypeScript.
+This web page inspired and clone from [jitthing/portfolio](https://github.com/jitthing/portfolio)
 
 ## Getting Started
 
@@ -52,7 +52,3 @@ This will deploy the application
 ```bash
 npm run deploy
 ```
-
-### License
-
-This project is licensed under the MIT License.
