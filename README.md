@@ -1,8 +1,9 @@
-![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/rama-bena/dea-portfolio?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
 
 # My React App
 
-This is a simple React application built with TypeScript. 
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/rama-bena/dea-portfolio?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
+
+This is a simple React application built with TypeScript.
 
 ## Getting Started
 
@@ -13,50 +14,44 @@ To get started with this project, follow the instructions below.
 Make sure you have the following installed:
 
 - Node.js (version 14 or higher)
-- npm (comes with Node.js)
 
 ### Installation
 
 1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/rama-bena/dea-portfolio.git
    ```
-   git clone <repository-url>
-   ```
+
 2. Navigate to the project directory:
+
+   ```bash
+   cd dea-portfolio
    ```
-   cd my-react-app
-   ```
+
 3. Install the dependencies:
-   ```
+
+   ```bash
    npm install
    ```
 
 ### Running the Application
 
 To start the development server, run:
-```
+
+```bash
 npm start
 ```
+
 This will open the application in your default web browser at `http://localhost:3000`.
 
-### Building for Production
+### Deploying the application
 
-To create a production build of the application, run:
+This will deploy the application
+
+```bash
+npm run deploy
 ```
-npm run build
-```
-This will generate a `build` folder with the optimized application.
-
-### Folder Structure
-
-- `src/`: Contains the source code for the application.
-  - `components/`: Contains React components.
-  - `styles/`: Contains CSS styles.
-  - `index.tsx`: Entry point of the application.
-- `public/`: Contains static files.
-  - `index.html`: Main HTML file.
-  - `favicon.ico`: Favicon for the application.
-- `tsconfig.json`: TypeScript configuration file.
-- `package.json`: npm configuration file.
 
 ### License
 
